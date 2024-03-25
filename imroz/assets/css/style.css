@@ -11398,7 +11398,7 @@ button.btn-default.btn-dark.btn-border:hover {
   height: 5px;
   border-radius: 100%;
   opacity: 0.5;
-  right: -3px;
+  left: -3px;
 }
 .breadcrumb-inner ul.page-list li a {
   color: #fff;
@@ -14327,6 +14327,7 @@ Slick Animation For Slider
   position: relative;
   display: inline-block;
   margin-bottom: 7px;
+  direction: ltr;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .im_counterup .inner .counter {
