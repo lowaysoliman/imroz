@@ -10393,7 +10393,7 @@ img.react-parallax-bgimage {
 .header-area.header--fixed .header-wrapper .mainmenunav ul.mainmenu > li > a::after {
   position: absolute;
   content: "";
-  left: 0;
+  right: 0;
   width: 0;
   height: 3px;
   background: var(--color-primary);
@@ -10780,7 +10780,7 @@ img.react-parallax-bgimage {
   height: auto;
   position: absolute;
   top: 100%;
-  left: 0;
+  right: 0;
   z-index: -2;
   opacity: 0;
   visibility: hidden;
@@ -14267,6 +14267,7 @@ Slick Animation For Slider
   color: var(--color-primary);
   display: inline-block;
   margin-bottom: 10px;
+  direction: ltr;
 }
 @media only screen and (max-width: 767px) {
   .counterup_style--2 h5.counter {
@@ -14413,7 +14414,7 @@ Testimonial Styles
   position: absolute;
   width: 177px;
   height: 100%;
-  left: -64px;
+  right: -64px;
   top: -57px;
   background-image: url(../images/client/image-1.png);
   content: "";
@@ -14423,7 +14424,7 @@ Testimonial Styles
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .rn-testimonial-content .inner p::before {
-    left: 0;
+    right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -15414,7 +15415,7 @@ Progressbar Area
 }
 .rn-progress-bar .single-progress .label {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   color: #1f1f25;
   font-size: 15px;
@@ -16760,7 +16761,7 @@ Footer Styles
 }
 .about-us-list p {
   font-weight: 300;
-  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .rn-content-box-style--1 .content {
@@ -17019,7 +17020,7 @@ Footer Styles
   line-height: 30px;
   color: rgba(29, 29, 36, 0.75);
   position: relative;
-  padding-left: 30px;
+  padding-right: 30px;
 }
 .service-details-inner .sercice-details-content .details ul.liststyle li::before {
   position: absolute;
@@ -17028,7 +17029,7 @@ Footer Styles
   height: 6px;
   border-radius: 100%;
   background: rgba(29, 29, 36, 0.75);
-  left: 0;
+  right: 0;
   top: 10px;
 }
 .service-details-inner .sercice-details-content .details ul.liststyle li + li {

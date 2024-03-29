@@ -124,6 +124,7 @@
     list-style: none;
 
     text-align: center;
+    direction: rtl;
 }
 
 .slick-dots li {
