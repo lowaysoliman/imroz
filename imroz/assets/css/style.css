@@ -15056,6 +15056,7 @@ ul.tab-style--1 {
   flex-wrap: wrap;
   border: 1px solid var(--color-border);
   border-radius: 50em;
+  justify-content: space-between;
 }
 @media only screen and (max-width: 767px) {
   ul.tab-style--1 {
@@ -15083,7 +15084,7 @@ ul.tab-style--1 li.nav-item button {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   ul.tab-style--1 li.nav-item a,
 ul.tab-style--1 li.nav-item button {
-    padding: 0.83333em 18px;
+    padding: 0.83333em 30px;
     font-size: 14px;
   }
 }
